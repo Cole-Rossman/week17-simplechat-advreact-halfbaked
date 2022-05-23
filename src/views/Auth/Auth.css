@@ -1,0 +1,10 @@
+.auth {
+  display: grid;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.auth h2,
+.subtext {
+  text-align: center;
+}

@@ -1,0 +1,80 @@
+:root {
+  --primary: rgb(25, 25, 25);
+  --secondary: rgb(234, 236, 234);
+  --tertiary: rgb(22, 122, 222);
+  --quaternary: rgb(134, 136, 134);
+  --font-regular: OpenSans;
+  --font-bold: OpenSansBold;
+  --font-semi-bold: OpenSansSemiBold;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url('assets/fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: OpenSansBold;
+  src: url('assets/fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: OpenSansSemiBold;
+  src: url('assets/fonts/OpenSans-Semibold.ttf') format('truetype');
+}
+
+body {
+  background-color: var(--secondary);
+  color: var(--primary);
+  font-family: var(--font-regular);
+  font-size: 1rem;
+}
+
+a {
+  color: var(--tertiary);
+}
+
+button {
+  font-family: var(--font-regular);
+  background: var(--tertiary);
+  border: 1px solid var(--secondary);
+  color: var(--secondary);
+  font-size: 1.1rem;
+  padding: 5px 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: var(--font-bold);
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+
+input,
+textarea {
+  background: var(--secondary);
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  font-family: var(--font-regular);
+  padding: 7px 10px;
+  font-size: 1.1rem;
+}
+
+legend {
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--tertiary);
+}
+
+.main {
+  padding: 2rem 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}

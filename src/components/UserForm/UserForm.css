@@ -1,0 +1,16 @@
+.form {
+  display: grid;
+  gap: 1rem;
+  border: 2px solid var(--tertiary);
+  padding: 10px 20px 20px;
+}
+
+.formSection {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.error {
+  color: rgb(253, 71, 85);
+  margin: 0 0 10px;
+}
